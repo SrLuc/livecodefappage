@@ -1,5 +1,4 @@
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
 import Container from "./components/Main/Container";
 import { RightSide } from "./components/Main/RightSide";
 import { LeftSide } from "./components/Main/LeftSide";
