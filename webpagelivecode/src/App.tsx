@@ -1,8 +1,21 @@
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Container from "./components/Main/Container";
+import { RightSide } from "./components/Main/RightSide";
+import { LeftSide } from "./components/Main/LeftSide";
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <Container>
+        <section>
+          <LeftSide />
+        </section>
+        <section>
+          <RightSide />
+        </section>
+      </Container>
     </>
   );
 }
